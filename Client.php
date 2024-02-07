@@ -2,10 +2,10 @@
 
 namespace Zennolab\CapMonsterCloud;
 
-include_once './client/src/Networker.php';
-include_once './client/src/CaptchaRequest.php';
-include_once './client/src/Result.php';
-include_once './client/src/Timeouts.php';
+use Zennolab\CapMonsterCloud\Client\Networker;
+use Zennolab\CapMonsterCloud\Client\CaptchaRequest;
+use Zennolab\CapMonsterCloud\Client\Result;
+use Exception;
 
 class Client extends Networker {
 

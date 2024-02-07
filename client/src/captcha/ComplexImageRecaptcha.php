@@ -1,6 +1,6 @@
 <?php
 
-include_once './client/src/captcha/ComplexImage.php';
+namespace Zennolab\CapMonsterCloud\Client;
 
 class ComplexImageRecaptchaRequest extends ComplexImageRequest
 {

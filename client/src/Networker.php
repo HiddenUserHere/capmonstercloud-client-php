@@ -1,6 +1,8 @@
 <?php
 
-include_once "./client/src/Result.php";
+namespace Zennolab\CapMonsterCloud\Client;
+
+use Exception;
 
 class Networker {
 

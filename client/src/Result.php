@@ -1,5 +1,7 @@
 <?php
 
+namespace Zennolab\CapMonsterCloud\Client;
+
 class Result {
 
     public $result;

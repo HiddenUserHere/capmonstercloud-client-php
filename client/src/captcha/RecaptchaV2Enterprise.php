@@ -1,6 +1,6 @@
 <?php
 
-include_once './client/src/CaptchaRequest.php';
+namespace Zennolab\CapMonsterCloud\Client;
 
 
 class RecaptchaV2EnterpriseRequest extends CaptchaRequest {

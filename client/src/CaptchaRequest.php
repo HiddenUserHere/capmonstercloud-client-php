@@ -1,8 +1,8 @@
 <?php
 
-include_once './client/src/Networker.php';
-include_once './client/src/Result.php';
-include_once './client/src/Validator.php';
+namespace Zennolab\CapMonsterCloud\Client;
+
+use Exception;
 
 class CaptchaRequest extends Networker {
 

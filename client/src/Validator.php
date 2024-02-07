@@ -1,6 +1,6 @@
 <?php
 
-    include_once "./client/src/Result.php";
+namespace Zennolab\CapMonsterCloud\Client;
 
     class Validator {
 
@@ -30,6 +30,8 @@
                 case "ComplexImageTask":
                     return ["class", "metadata"];
             }
+
+            return [];
         }
 
         private static function buildFailtureMessage(array $diff) : string {

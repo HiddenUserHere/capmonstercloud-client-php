@@ -1,5 +1,7 @@
 <?php
 
+namespace Zennolab\CapMonsterCloud\Client;
+
 class Timeouts {
 
     public static $recaptchaV2Timeouts = [
@@ -83,6 +85,8 @@ class Timeouts {
             case "ComplexImageTask":
                 return self::$complexImageTimeouts;
         }
+
+        return [];
     }
 
 }
