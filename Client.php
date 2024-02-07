@@ -1,5 +1,7 @@
 <?php
 
+namespace Zennolab\CapMonsterCloud;
+
 include_once './client/src/Networker.php';
 include_once './client/src/CaptchaRequest.php';
 include_once './client/src/Result.php';
