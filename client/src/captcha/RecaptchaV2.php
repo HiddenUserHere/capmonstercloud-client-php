@@ -1,6 +1,9 @@
 <?php
 
-namespace Zennolab\CapMonsterCloud\Client;
+namespace Zennolab\CapMonsterCloud\Client\Captcha;
+
+use Zennolab\CapMonsterCloud\Client\CaptchaRequest;
+
 
 
 class RecaptchaV2Request extends CaptchaRequest {
