@@ -1,6 +1,8 @@
 {
     "name": "zennolab/capmonstercloud.client",
     "description": "API client for capmonster.cloud",
+    "keywords": ["capmonster", "captcha", "api", "client"],
+    "type": "library",
     "autoload": {
         "psr-4": {
             "ZennoLab\\CapMonsterCloud\\": "src/"
