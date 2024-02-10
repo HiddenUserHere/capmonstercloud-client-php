@@ -12,5 +12,7 @@
         "psr-4": {
             "ZennoLab\\CapMonsterCloud\\": "src/"
         }
-    }
+    },
+    //Stable
+    "minimum-stability": "stable"
 }
