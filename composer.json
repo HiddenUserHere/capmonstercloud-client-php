@@ -13,6 +13,5 @@
             "ZennoLab\\CapMonsterCloud\\": "src/"
         }
     },
-    //Stable
     "minimum-stability": "stable"
 }
