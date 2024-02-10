@@ -1,5 +1,5 @@
 {
-    "name": "zennolab/capmonstercloud.client",
+    "name": "zennolab/capmonstercloud",
     "description": "API client for capmonster.cloud",
     "keywords": ["capmonster", "captcha", "api", "client"],
     "type": "library",
