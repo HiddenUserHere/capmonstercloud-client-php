@@ -2,7 +2,7 @@
     "name": "zennolab/capmonstercloud",
     "description": "API client for capmonster.cloud",
     "keywords": ["capmonster", "captcha", "api", "client"],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "library",
     "require": {
         "php": "^8.1",
