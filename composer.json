@@ -1,4 +1,9 @@
 {
     "name": "zennolab/capmonstercloud.client",
-    "description": "API client for capmonster.cloud"
+    "description": "API client for capmonster.cloud",
+    "autoload": {
+        "psr-4": {
+            "ZennoLab\\CapMonsterCloud\\": "src/"
+        }
+    }
 }
