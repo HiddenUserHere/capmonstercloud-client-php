@@ -1,8 +1,8 @@
 <?php
 
-namespace ZennoLab\CapMonsterCloud\Captcha;
+namespace ZennoLab\CapMonsterCloud;
 
-use ZennoLab\CapMonsterCloud\CaptchaRequest;
+use ZennoLab\CapMonsterCloudRequest;
 
 
 class ComplexImageRequest extends CaptchaRequest

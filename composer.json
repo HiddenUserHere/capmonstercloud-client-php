@@ -10,8 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ZennoLab\\CapMonsterCloud\\": "src/",
-            "ZennoLab\\CapMonsterCloud\\Captcha\\": "src/Captcha/"
+            "ZennoLab\\CapMonsterCloud\\": "src/"
         }
     }
 }

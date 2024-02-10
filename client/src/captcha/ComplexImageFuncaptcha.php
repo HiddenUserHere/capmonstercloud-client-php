@@ -1,11 +1,11 @@
 <?php
 
-namespace ZennoLab\CapMonsterCloud\Captcha;
+namespace ZennoLab\CapMonsterCloud;
 
 
-class ComplexImageHCaptchaRequest extends ComplexImageRequest
+class ComplexImageFuncaptchaRequest extends ComplexImageRequest
 {
-    public $_class = 'hcaptcha';
+    public $_class = 'funcaptcha';
     public function __construct(
         array $metadata,
         array $imageUrls = [],

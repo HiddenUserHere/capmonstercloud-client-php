@@ -1,20 +1,20 @@
 <?php
 
-namespace ZennoLab\CapMonsterCloud\Captcha;
+namespace ZennoLab\CapMonsterCloud;
 
-use ZennoLab\CapMonsterCloud\CaptchaRequest;
+use ZennoLab\CapMonsterCloudRequest;
 
 
 
-class RecaptchaV2EnterpriseRequest extends CaptchaRequest {
+class HCaptchaRequest extends CaptchaRequest {
 
     public function __construct(
         string $websiteURL,
         string $websiteKey,
-        string $enterprisePayload = null,
-        string $apiDomain = null,
-        string $userAgent = null, 
-        string $cookies = null,
+        bool $isInvisible=null,
+        string $data=null,
+        string $userAgent=null,
+        string $cookies=null,
         string $proxyType = null,
         string $proxyAddress = null,
         int $proxyPort = null,
@@ -24,17 +24,17 @@ class RecaptchaV2EnterpriseRequest extends CaptchaRequest {
         $options = $this->clearInput([
             "websiteURL" => $websiteURL,
             "websiteKey" => $websiteKey,
-            "enterprisePayload" => $enterprisePayload,
-            "apiDomain" => $apiDomain,
+            "isInvisible" => $isInvisible,
+            "data" => $data,
+            "userAgent" => $userAgent,
+            "cookies" => $cookies,
             "proxyType" => $proxyType,
             "proxyAddress" => $proxyAddress,
             "proxyPort" => $proxyPort,
             "proxyLogin" => $proxyLogin,
             "proxyPassword" => $proxyPassword,
-            "userAgent" => $userAgent,
-            "cookies" => $cookies
         ]);
-        CaptchaRequest::__construct($this->detectProxy($options, "RecaptchaV2EnterpriseTask", "RecaptchaV2EnterpriseTaskProxyless"), $options);
+        CaptchaRequest::__construct($this->detectProxy($options, "HCaptchaTask", "HCaptchaTaskProxyless"), $options);
     }
 
 }
