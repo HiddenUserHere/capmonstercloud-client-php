@@ -3,6 +3,10 @@
     "description": "API client for capmonster.cloud",
     "keywords": ["capmonster", "captcha", "api", "client"],
     "type": "library",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2"
+    },
     "autoload": {
         "psr-4": {
             "ZennoLab\\CapMonsterCloud\\": "src/"
