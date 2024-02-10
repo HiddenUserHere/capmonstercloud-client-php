@@ -1,6 +1,6 @@
 <?php
 
-namespace Zennolab\CapMonsterCloud\Client;
+namespace Zennolab\CapMonsterCloud;
 
 use Exception;
 
